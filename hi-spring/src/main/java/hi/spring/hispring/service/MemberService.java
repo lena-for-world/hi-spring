@@ -3,6 +3,8 @@ package hi.spring.hispring.service;
 import hi.spring.hispring.domain.Member;
 import hi.spring.hispring.repository.MemberRepository;
 import hi.spring.hispring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
