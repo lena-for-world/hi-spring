@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="hi-spring.hi-spring.main" target="11" />
-      <module name="hi-spring.hi-spring.test" target="11" />
+      <module name="hi-spring.hi-spring.main~1" target="11" />
+      <module name="hi-spring.hi-spring.test~1" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
