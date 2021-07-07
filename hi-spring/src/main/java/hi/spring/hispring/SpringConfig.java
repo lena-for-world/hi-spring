@@ -1,5 +1,6 @@
 package hi.spring.hispring;
 
+import hi.spring.hispring.aop.TimeTraceAop;
 import hi.spring.hispring.repository.*;
 import hi.spring.hispring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,5 +33,10 @@ public class SpringConfig {
         // return new JDbcMemberRepository(dataSource);
         //return new JdbcTemplateMemberRepository(dataSource);
         return new JpaMemberRepository(em);
+    }
+
+    @Bean
+    public TimeTraceAop timeTraceAop() {
+        return new TimeTraceAop();
     }
 }
